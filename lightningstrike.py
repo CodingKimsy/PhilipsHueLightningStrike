@@ -13,7 +13,8 @@ for l in lights:
     print(l.name )
 
 
-lightningLights = ["Keller", "Stehlampe", "Tischleuchte", "Flurlampe"]
+#lightningLights = [Keller", "Flurlampe", "Küchenfenster","Femie","Stehlampe", "Tischleuchte"]
+lightningLights = ["Haustür","Keller", "Flurlampe", "Küchenfenster","Femie","Stehlampe"]
 
 mixer.init()
 
@@ -82,8 +83,8 @@ def blitz():
     time.sleep(.45)
     allLightsBrightness(0)
     time.sleep(.29)
-    allLightsBrightness(40)
-    time.sleep(.27)
+#allLightsBrightness(40)
+#time.sleep(.27)
     allLightsOff()
     time.sleep(3)
 
